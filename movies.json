@@ -5,5 +5,61 @@
 	"year": 2017,
     "image" : "image/coco.jpg",
     "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 2,
+	"title": "Coco1",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 3,
+	"title": "Coco",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 4,
+	"title": "Coco",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 5,
+	"title": "Coco",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 6,
+	"title": "Coco",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 7,
+	"title": "Coco",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+},
+
+{
+	"id": 8,
+	"title": "Coco",
+	"year": 2017,
+    "image" : "image/coco.jpg",
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
 }
 ]

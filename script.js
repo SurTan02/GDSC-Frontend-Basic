@@ -10,10 +10,21 @@ fetch('movies.json')
     });
 
 function appendData(data){
-    var mainContainer = document.getElementsByClassName("movie");
+    var mainContainer = document.getElementById("movieList");
+    
     for (var i = 0; i<data.length; i++){
-        var div = document.createElement("div");
-        div.innerHTML=data[i].title + "(" + data[i].year +")";
-        mainContainer.appendChild(div);
+        //Dipslaying list of the movie 
+        var el= document.createElement("div");
+        var text = document.createElement('h2');
+        text.innerHTML='<img  src="'+data[i].image+'"class=imgMovie>' + data[i].title + "(" + data[i].year +")" ;       
+        
+        el.className = "movie";
+        el.appendChild(text);    
+        mainContainer.appendChild(el);
+        
+
+        
     }
 }
+
+

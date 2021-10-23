@@ -61,28 +61,65 @@ h1{
     font-family:'Times New Roman', Times, serif;
 }
 
-.row{
+#movieList{
     display: flex;
-    justify-content: center;
+    background-color: blue;
     flex-flow: row wrap;
+    float:left;
+    justify-content: center;
+    
+}
+
+#movie h2{
+    color: red;
+    margin: 50pt 60pt;
 }
 
 .imgMovie{
-    width: 75%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
-
 
 .movie{
     flex:25%;
-    margin-bottom: 100pt;
+    margin-bottom: 50pt;
+    color:red;
+    background-color: white;
 }
 
-.movie a{
-    color: red;
-}
-
-@media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
+@media screen and (max-width: 768px){
+    .movie{
+        flex:auto;
     }
-  }
+
+    .imgMovie{
+        width: auto;
+        height: auto;
+    }
+    .header-left{
+        text-align: center;
+        float:none;
+    }
+
+    .header-right{
+        text-align: center;
+        float:none;
+        
+    }
+
+    .searchbar{
+        display:inline-block;
+        padding: 8pt 250pt;
+        font-size: 20px;
+        margin-top: 3pt;
+        margin-right: 1pt;
+        border-radius: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .content-wrapper{
+        margin-top: 100pt;
+    }
+}
