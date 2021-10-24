@@ -51,6 +51,7 @@ header{
 
 .content-wrapper{
     text-align: center;
+    
 }
 
 
@@ -63,39 +64,126 @@ h1{
 
 #movieList{
     display: flex;
-    background-color: blue;
     flex-flow: row wrap;
-    float:left;
     justify-content: center;
-    
+    margin: 5pt auto;
 }
 
-#movie h2{
-    color: red;
-    margin: 50pt 60pt;
-}
+
 
 .imgMovie{
     width: 80%;
     display: block;
-    margin: 0 auto;
+    margin: 5pt auto;
 }
 
 .movie{
+    margin-right: auto;
+    margin-left: auto;
     flex:25%;
     margin-bottom: 50pt;
-    color:red;
-    background-color: white;
+    color:white;
 }
+/*
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: blue;
+}
+*/
+
+.modal {
+    display: none; /*Hidden by default  */
+    position:fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color:black,0.4;
+    z-index: 1;
+  }
+
+
+
+
+.ModalContent{
+    display: flex;
+    flex:auto;
+    background-color: rgba(10, 10, 10, 1);
+    margin: 5% 20% 5% 15%; 
+    padding: 5% 50% 5% 0%;
+    border: 1px solid grey;
+    width: 25%; 
+    
+}
+
+.ModalContent img{
+    padding-right: 50%;
+    padding-left: 35%;
+    
+}
+
+.movie-desc{
+
+   
+    margin-left: auto;
+    height: auto;
+    width:100vw;
+    
+}
+
+.movie-desc h2{
+    width: fit-content;
+ 
+    padding:0 50pt;
+    font-size: 3vw;
+    margin: 15pt auto;
+}
+
+.movie-desc p{
+    width: fit-content;
+    text-indent: 10%;
+    font-size: 1vw;
+    text-align: left;
+
+}
+
+.movie-desc > .rating{
+    text-indent: 0%;
+}
+
+/* The Close Button */
+.close {
+    height: 10%;
+    color: red;
+    float: right;
+    font-size: 75px;
+    font-weight: bold;
+
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: white;
+    
+    cursor: pointer;
+  }
+
 
 @media screen and (max-width: 768px){
     .movie{
-        flex:auto;
+        flex:50%;
     }
 
     .imgMovie{
-        width: auto;
+        width: 50%;
         height: auto;
+        
     }
     .header-left{
         text-align: center;

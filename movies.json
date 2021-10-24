@@ -4,62 +4,69 @@
 	"title": "Coco",
 	"year": 2017,
     "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+	"rating" : "8.4/10"
 },
 
 {
 	"id": 2,
-	"title": "Coco1",
-	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+	"title": "Avengers Infinity War",
+	"year": 2018,
+    "image" : "image/infinity-war.jpg",
+    "desc":"The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+	"rating" : "8.4/10"
 },
-
 {
 	"id": 3,
-	"title": "Coco",
-	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+	"title": "Avengers Endgame",
+	"year": 2019,
+    "image" : "image/endgame.jpg",
+    "desc":"After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+	"rating" : "8.4/10"
 },
 
 {
 	"id": 4,
-	"title": "Coco",
-	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+	"title": "Knives Out",
+	"year": 2019,
+    "image" : "image/knives-out.jpg",
+    "desc":"A detective investigates the death of a patriarch of an eccentric, combative family.",
+	"rating" : "7.9/10"
 },
 
 {
 	"id": 5,
-	"title": "Coco",
-	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+	"title": "Shang-Chi",
+	"year": 2021,
+    "image" : "image/shangchi.jpg",
+    "desc":"Shang-Chi, the master of weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.",
+	"rating" : "7.9/10"
 },
 
 {
 	"id": 6,
-	"title": "Coco",
+	"title": "Thor Ragnarok",
 	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+    "image" : "image/thor-ragnarok.jpg",
+    "desc":"Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+	"rating" : "7.9/10"
 },
 
 {
 	"id": 7,
-	"title": "Coco",
-	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+	"title": "Doctor Strange",
+	"year": 2016,
+    "image" : "image/doctor-strange.jpg",
+    "desc":"While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+	"rating" : "7.5/10"
 },
 
 {
 	"id": 8,
-	"title": "Coco",
+	"title": "Guardian of the Galaxy",
 	"year": 2017,
-    "image" : "image/coco.jpg",
-    "desc":"Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+    "image" : "image/gotg.jpg",
+    "desc":"A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
+	"rating" : "8/10"
 }
 ]
