@@ -105,6 +105,7 @@ h1{
     height: 100%; /* Full height */
     overflow: hidden; /* Enable scroll if needed */
     background-color:black,0.4;
+    
     z-index: 1;
   }
 
@@ -129,8 +130,6 @@ h1{
 }
 
 .movie-desc{
-
-   
     margin-left: auto;
     height: auto;
     width:100vw;
@@ -139,7 +138,6 @@ h1{
 
 .movie-desc h2{
     width: fit-content;
- 
     padding:0 50pt;
     font-size: 3vw;
     margin: 15pt auto;
@@ -210,4 +208,108 @@ h1{
     .content-wrapper{
         margin-top: 100pt;
     }
+
+
+    .ModalContent{
+       width:40%;
+       height: auto;
+       margin: 10% 5%; 
+       flex-direction: column;
+      
+       background-color: rgba(10, 10, 10, 1);
+       padding: 5% 50% 5% 0%;
+
+    }
+
+    .movie-desc h2{
+        font-size: 50px;
+    }
+
+    .movie-desc,  .movie-desc p{
+        display: block;
+        text-align: center;
+        margin: 5px 165px; 
+        font-size: 20px;
+        
+
+    }
+
+    .ModalContent img{
+        width:75%;
+        display: block;
+        padding:0 50px;
+        margin: 0 300px; 
+        
+        
+    }
+   
+    
+}
+
+@media screen and (max-width: 426px){
+    
+    .header-left{
+        font-size: 65px;
+    }
+    
+
+    .searchbar{
+        font-size: 50px;
+        padding: 10pt 150pt;
+        margin-bottom: 110px;
+    }
+
+    .content-wrapper{
+        margin-top: 200pt;
+      
+    }
+
+    .content-wrapper h1{
+        font-size: 100px ;
+    }
+        
+
+    .movie{
+        flex:100%;
+        font-size: 50px ;
+
+    }
+
+    .imgMovie{
+        width: 80%;
+        height: auto;
+        
+    }
+
+    .ModalContent{
+        width:40%;
+        height: auto;
+        margin: 10% 5%; 
+        flex-direction: column;
+        background-color: rgba(10, 10, 10, 1);
+        padding: 5% 50% 5% 0%;
+ 
+     }
+ 
+     .movie-desc h2{
+         font-size: 100px;
+         margin: 0 60vw;
+     }
+ 
+     .movie-desc,  .movie-desc p{
+         
+         margin: 5px -504px 5px 50px; 
+         font-size: 12vw;
+         
+ 
+     }
+ 
+     .ModalContent img{
+         width:75%;
+         display: block;
+         padding:0 50px;
+         margin: 0 300px; 
+         
+         
+     }
 }
