@@ -84,7 +84,7 @@ function main(data){
             movie.addEventListener('click',()=>{
                 const movieParent = movie.parentElement;
                 const modal = movieParent.querySelector('.modal');
-                console.log(modal);
+                
                 const open  = movie.querySelector('.imgMovie');
                 modal.style.display="block";
             })
@@ -94,6 +94,18 @@ function main(data){
                 const modal = close.parentElement.parentElement;
                 modal.style.display="none";
             })
+
+            // close jika user klik di luar modal
+            
+            
+            
+            window.addEventListener('click',()=>{
+                const modal = movie.parentElement.querySelector(".modal");  
+                console.log(modal);
+                if (event.target == modal) {
+                modal.style.display = "none";
+                }
+            }) 
         });
 
         
