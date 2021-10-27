@@ -212,8 +212,8 @@ h1{
 
     .ModalContent{
        width:40%;
-       height: auto;
-       margin: 10% 5%; 
+       height: 80%;
+       margin: 2% 5%; 
        flex-direction: column;
       
        background-color: rgba(10, 10, 10, 1);
